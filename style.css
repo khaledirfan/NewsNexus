@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.bgimage {
+
+    background-image: url('image.jpg');
+    background-size: 100% 110%;
+    width: 100%;
+    height: 100vh;
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100px;
+
+
+}
+.leftmenu {
+    width: 25%;
+    line-height: 100px;
+    float: left;
+
+}
+.leftmenu h2{
+    padding-left: 75px;
+    font-weight: bold;
+    color: seashell;
+    font size: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.rightmenu {
+    width: 70%;
+    height: 100px;
+    float: right;
+
+}
+.right menu ul {
+    margin-left: 300px;
+
+}
+.rightmenu ul li{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: thistle;
+    display: inline-block;
+    list-style: none;
+    font-size:  15px;
+    margin-left: 45px;
+    line-height: 100px;
+    text-transform: uppercase;
+
+}
+#fl {
+    color: red;
+
+}
+.rightmenu ul li:hover{
+    color:red;
+ 
+
+}
+.text {
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin-top: 180px;
+    text-transform: uppercase;
+}
+.text h3{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+.text h1{
+     font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    
+
+
+
+}
+.text h4{
+    font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.button {
+    background-color: burlywood;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+    width: 150px;
+    border: 3px solid white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+#b2 {
+    background-color: transparent;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+    width: 150px;
+    border: 3px solid white;
+
+
+
+}
+#b3{
+    background-color: tomato;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+
+
+}
